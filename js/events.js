@@ -15,6 +15,15 @@ function submitIt() {
     alert('Your form is going to be submitted now.');
   })
 }
+
+function pressIt() {
+  $('body').on('keydown',function(e){
+    if (e === 71) {
+      alert("G was pressed")
+    }
+  })
+}
+
 $(document).ready(function(){
 
 
